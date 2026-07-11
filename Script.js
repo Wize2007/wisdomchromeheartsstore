@@ -80,7 +80,7 @@ topButton.onclick = function () {
 
 const darkButton = document.createElement("button");
 
-darkButton.innerHTML = "🌙";
+darkButton.innerHTML = "🌑";
 
 document.body.appendChild(darkButton);
 
@@ -245,7 +245,7 @@ button.addEventListener("click", function(){
 // ==========================================
 const topButton = document.createElement("button");
 
-topButton.innerHTML = "⬆";
+topButton.innerHTML = "🔝";
 
 topButton.id = "topBtn";
 
@@ -297,7 +297,7 @@ window.scrollTo({
 // ==========================================
 const darkBtn = document.createElement("button");
 
-darkBtn.innerHTML="🌙";
+darkBtn.innerHTML="🌑";
 
 document.body.appendChild(darkBtn);
 
